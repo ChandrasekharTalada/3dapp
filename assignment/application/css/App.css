@@ -1,0 +1,132 @@
+body {
+    padding: 0px;
+    
+  }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery img {
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+  height: auto;
+}
+
+.thumbnail {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+#body{
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin-left: 10px;
+margin-right: 10px;
+}
+  * {
+box-sizing: border-box;
+}
+
+
+.column3 {
+display:inline-block;
+width: 70%;
+float: none;
+width: 32.33%;
+padding: 9px;
+padding-left: 1em;
+border: 6px solid black;
+column-gap: 40px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+.column {
+  width: 100%;
+  
+}
+}
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+.image-container {
+position: left;
+display: inline-block;
+}
+
+.image-container img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay-text {
+position: absolute;
+top: 30%; 
+left: 25%; 
+transform: translate(-50%, -50%); 
+background-color: #000000; 
+color: #fff; 
+padding: 10px 20px; 
+font-size: 20px; 
+text-align: left;}.dropbtn {
+background-color: #04AA6D;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+}
+
+.Bottom_Nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #fff;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #fff;
+}
+#modelStyle {
+border: double;
+background: lightgrey;
+margin-left: inherit;
+}
+
+.centre{
+text-align: center;
+}
